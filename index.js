@@ -1,10 +1,10 @@
 function wakeDog(dogName, dogBreed){
-  let s = 
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+  let s = `Wake ${dogName} the ${dogBreed}`
+  console.log(s);
 }
 function leashDog(dogName, dogBreed){
   let s = `Leash ${dogName} the ${dogBreed}`
-  console.log();
+  console.log(s);
 }
 function walkToPark(dogName, dogBreed){
   let s = `Walk to the park with ${dogName} the ${dogBreed}`)
