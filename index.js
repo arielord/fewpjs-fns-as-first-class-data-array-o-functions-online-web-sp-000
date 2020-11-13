@@ -10,7 +10,11 @@ function walkToPark(dogName, dogBreed){
 function throwFrisbee(dogName, dogBreed){
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
 }
-function walkHome(dogName, dogBreed)
+function walkHome(dogName, dogBreed){
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+}
+function unleashDog(dogName, dogBreed){
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
+}
 
-console.log(`Walk home with ${dogName} the ${dogBreed}`);
-console.log(`Unleash ${dogName} the ${dogBreed}`);
+routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDoge];
