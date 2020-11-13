@@ -29,7 +29,7 @@ function unleashDog(dogName, dogBreed){
   return s;
 }
 
-let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDoge];
+var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDoge];
 
 function exerciseDog(dogName, dogBreed){
   for(let i = 0; i < routine.length; i++){
